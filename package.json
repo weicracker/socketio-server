@@ -1,0 +1,31 @@
+{
+  "name": "socketio-server",
+  "version": "1.0.0",
+  "description": "node socketio server for asp",
+  "main": "server/index.js",
+  "repository": "git@10.0.32.99:backend/sockerio-server.git",
+  "author": "jiwei <jiwei3778@bjsasc.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build ",
+    "start": "npm run build&&node server/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.1",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "moment": "^2.18.1",
+    "sequelize": "^4.4.2",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/socket.io": "^1.4.29",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.2.1",
+    "typescript": "^2.4.2"
+  }
+}

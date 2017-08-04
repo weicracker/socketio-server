@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "allowJs": true,
+        "moduleResolution" : "node",
+        "removeComments":true,
+        "alwaysStrict":true,
+        "skipLibCheck":true,
+        "experimentalDecorators":true
+    }
+    ,
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}
