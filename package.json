@@ -7,20 +7,30 @@
   "author": "jiwei <jiwei3778@bjsasc.com>",
   "license": "MIT",
   "scripts": {
+    "server": "node server/index.js",
     "build": "gulp build ",
     "start": "npm run build&&node server/index.js"
   },
   "dependencies": {
     "fs-extra": "^4.0.1",
     "koa": "^2.3.0",
+    "koa-body":"2.3.0",
+    "koa-bodyparser": "^4.2.0",
     "koa-router": "^7.2.1",
     "moment": "^2.18.1",
-    "sequelize": "^4.4.2",
-    "socket.io": "^2.0.3"
+    "mysql": "^2.14.1",
+    "request": "^2.81.0",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-router": "^7.0.22",
+    "@types/mysql": "^0.0.34",
+    "@types/request": "^2.0.0",
     "@types/socket.io": "^1.4.29",
+    "@types/uuid": "^3.4.0",
     "gulp": "^3.9.1",
     "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
